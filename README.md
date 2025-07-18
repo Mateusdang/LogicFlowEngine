@@ -196,14 +196,8 @@ Desenvolvido por **Mateus Dang**
 
 ---
 
-## Contribuição
-
-Pull requests são bem-vindos!  
-Para sugestões, abra uma issue.
-
----
 
 ## Referências
 
 - [Documentação Python](https://docs.python.org/pt-br/3/)
-- [PyPI](https://pypi.org/)
+- [PyPI](https://pypi.org/project/pylogicator/)
