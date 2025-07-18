@@ -184,8 +184,8 @@ Gera a tabela verdade para uma expressão lógica.
 
 ## Licença
 
-MIT License.  
-Veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
