@@ -185,7 +185,7 @@ Gera a tabela verdade para uma expressão lógica.
 ## Licença
 
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE.md](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Mateusdang/pylogicator/blob/main/LICENSE.md) para mais detalhes.
 
 ---
 
