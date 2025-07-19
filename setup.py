@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pylogicator",
-    version="0.1.0",
-    description="Biblioteca profissional de lógica, automação de fluxos e dados para projetos em Python.",
+    name="logicflowengine",
+    version="0.1.1",
+    description="Uma biblioteca Python para automação de fluxos lógicos e geração de tabelas verdade.",
     long_description=open("README.md", encoding="utf8").read(),
     long_description_content_type="text/markdown",
     author="Mateus Dang",
     author_email="mteus2030lol@gmail.com",
     packages=find_packages(),
     python_requires=">=3.8",
-    url="https://github.com/Mateusdang/pylogicator",
+    url="https://github.com/Mateusdang/logicflowengine",
     license="MIT",
     keywords="lógica automação python fluxo tabela verdade",
     classifiers=[

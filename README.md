@@ -1,4 +1,4 @@
-# pylogicator
+# logicflowengine
 
 **Uma biblioteca Python profissional para automação de fluxos lógicos, operações booleanas e construção de tabelas verdade.**
 
@@ -18,13 +18,13 @@ Ideal para projetos científicos, educacionais, industriais e empresariais que d
 
 **Via PyPI:**
 ```bash
-pip install pylogicator
+pip install logicflowengine
 ```
 
 **Via GitHub (repositório):**
 ```bash
-git clone https://github.com/Mateusdang/pylogicator.git
-cd pylogicator
+git clone https://github.com/Mateusdang/logicflowengine.git
+cd logicflowengine
 pip install .
 ```
 
@@ -33,7 +33,7 @@ pip install .
 ## Uso Rápido
 
 ```python
-from pylogicator import evaluate_expression, logic_flow, truth_table
+from logicflowengine import evaluate_expression, logic_flow, truth_table
 
 # Avaliando uma expressão lógica
 expr = "(A and B) or not C"
@@ -68,7 +68,7 @@ for linha in tabela:
 ### 1. Avaliação de Expressões Complexas
 
 ```python
-from pylogicator import evaluate_expression
+from logicflowengine import evaluate_expression
 
 expr = "((A or B) and (not C or D)) and (E == False)"
 variables = {"A": True, "B": False, "C": True, "D": True, "E": False}
@@ -78,7 +78,7 @@ print(evaluate_expression(expr, variables))  # True
 ### 2. Fluxo Lógico com Funções Customizadas
 
 ```python
-from pylogicator import logic_flow
+from logicflowengine import logic_flow
 
 def acao_personalizada(ctx):
     ctx['resultado'] = ctx.get('valor', 0) * 2
@@ -95,7 +95,7 @@ print(final)  # {'A': True, 'valor': 10, 'resultado': 20}
 ### 3. Geração de Tabela Verdade com Análise
 
 ```python
-from pylogicator import truth_table
+from logicflowengine import truth_table
 import pandas as pd  # Exemplo de integração
 
 expr = "(A or B) and not (C and D)"
@@ -110,7 +110,7 @@ print(df[df['result'] == True])
 ### 4. Uso em Sistemas de Decisão Inteligente
 
 ```python
-from pylogicator import evaluate_expression
+from logicflowengine import evaluate_expression
 
 def tomar_decisao(entrada):
     expr = "(temperatura > 30 and umidade < 50) or alerta"
@@ -123,7 +123,7 @@ print(tomar_decisao(sensor))  # True
 ### 5. Simulação de Circuito Digital
 
 ```python
-from pylogicator import evaluate_expression, truth_table
+from logicflowengine import evaluate_expression, truth_table
 
 # Porta lógica XOR
 expr = "A != B"
@@ -185,7 +185,7 @@ Gera a tabela verdade para uma expressão lógica.
 ## Licença
 
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Mateusdang/pylogicator/blob/main/LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Mateusdang/logicflowengine/blob/main/LICENSE.md) para mais detalhes.
 
 ---
 
@@ -200,4 +200,4 @@ Desenvolvido por **Mateus Dang**
 ## Referências
 
 - [Documentação Python](https://docs.python.org/pt-br/3/)
-- [PyPI](https://pypi.org/project/pylogicator/)
+- [PyPI](https://pypi.org/project/logicflowengine/)
