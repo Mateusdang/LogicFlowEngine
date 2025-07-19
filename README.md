@@ -18,7 +18,7 @@ Ideal para projetos científicos, educacionais, industriais e empresariais que d
 
 **Via PyPI:**
 ```bash
-pip install logicflowengine==0.1.1
+pip install logicflowengine==0.1.2
 ```
 
 **Via GitHub (repositório):**
